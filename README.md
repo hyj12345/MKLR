@@ -33,12 +33,12 @@ library(MKLR)
 model_mklr<-MKLR(train_data$y,train_data[,-1],max_iter=1000,threshold=1.0e-5,lr=0.5,kernel = 'RBF')
 ```
 
-* Predict
+* Predict 
+
+return classes or probabilities
 
 ```r
-library(MKLR)
-##Train the model
-model_mklr<-MKLR(train_data$y,train_data[,-1],max_iter=1000,threshold=1.0e-5,lr=0.5,kernel = 'RBF')
+pre_mklr<-MKLR::predict.MKLR(model_mklr,test_data[,-1],response = 'class')
 ```
 
-And we can get the information:
+
