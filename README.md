@@ -2,6 +2,9 @@
 
 Multi-class kernel logistic regression. This function fit a Multi-class Kernel Logistic Regression model to the data. The return list contains the estimated kernel weights as well as the original data to perform predictions.There are two types of kernel, they are `RBF` and `polynomial`.
 
+
+I refer to [KLR](https://github.com/fontaine618/KLR) and the [Multinomial Kernel Logistic Regression via Bound Optimization Approach](https://scienceon.kisti.re.kr/srch/selectPORSrchArticle.do?cn=JAKO200709906203322) for the calculation and use gradient descent (not dual) to get parameters
+
 ## Installation
 
 You can install the released version of bubblematrix from [GitHub](https://github.com/) with:
