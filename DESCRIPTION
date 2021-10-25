@@ -1,0 +1,19 @@
+Package: MKLR
+Type: Package
+Title: Multi-class Kernel Logistic Regression
+Version: 0.1.0
+Date: 2021-10-25
+Author: YUJIN HAN
+Maintainer: The package maintainer <yujin.han@yale.edu>
+Description: This function fit a Multi-class Kernel Logistic Regression model to the data. The return list contains the estimated kernel weights as well as the original data to perform predictions.(I write it because BIS555 required to fit MKLR but I did not find any information about the package. So I try to write the package by myself)
+License: LGPL (>= 2.1)
+Encoding: UTF-8
+LazyData: False
+RoxygenNote: 7.1.2
+Imports: dplyr, ggplot2
+Suggests: DT, rmarkdown, knitr, testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Depends: R (>= 2.10)
+VignetteBuilder: knitr
+NeedsCompilation: no
+Packaged: 2021-10-25 18:36:28 UTC; hanbujishenmebuhui
