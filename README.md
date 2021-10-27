@@ -1,5 +1,7 @@
 # MKLR
 
+Hi,guys! This is MKLP package homepage. I used the knowledge about how to create a R package in BIS620 to solve a problem in BIS555.
+
 Multi-class kernel logistic regression. This function fit a Multi-class Kernel Logistic Regression model to the data. The return list contains the estimated kernel parameters and logistic parameters.There are two types of kernel, they are `RBF` and `polynomial`.
 
 
