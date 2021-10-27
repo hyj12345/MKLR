@@ -38,9 +38,9 @@ MKLR <- function(
   lambda=0.01,
   sigma2=1.0,
   d=3,
-  lr=1e-3,
-  threshold=1.0e-6,
-  max_iter=1000
+  lr=1e-4,
+  threshold=1.0e-4,
+  max_iter=500
 ){
   # inputs check
   if(is.vector(y)) y = matrix(y, length(y), 1)
