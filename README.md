@@ -21,7 +21,7 @@ devtools::install_github("hyj12345/MKLR")
 
 ## Example
 
-I give the example for my course homework. 
+I use the data for my course homework as a simple example. 
 
 ### View the built-in dataset
 
