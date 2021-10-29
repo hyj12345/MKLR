@@ -5,7 +5,7 @@ Hi,guys! Welcome to MKLP package homepage. I used the knowledge about how to cre
 Multi-class kernel logistic regression. This function fit a Multi-class Kernel Logistic Regression model to the data. The return list contains the estimated kernel parameters and logistic parameters.There are two types of kernel, they are `RBF` and `polynomial`.
 
 
-I refer to [KLR](https://github.com/fontaine618/KLR) and the [Multinomial Kernel Logistic Regression via Bound Optimization Approach](https://scienceon.kisti.re.kr/srch/selectPORSrchArticle.do?cn=JAKO200709906203322) for the calculation and use gradient descent (not dual or fixed parameter) to get all parameters.
+I refer to [KLR](https://github.com/fontaine618/KLR) and the [Multinomial Kernel Logistic Regression via Bound Optimization Approach](https://scienceon.kisti.re.kr/srch/selectPORSrchArticle.do?cn=JAKO200709906203322) for the calculation and use gradient descent (not dual or fix the parameter) to get all parameters.
 
 And I will keep updating the package and try to provide methods like CV, LOOCV and more for better model selection.
 
