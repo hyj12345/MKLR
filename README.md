@@ -2,7 +2,7 @@
 
 <!-- badges: start -->
 
-[![R-CMD-check](https://github.com/kaneplusplus/bis620/workflows/R-CMD-check/badge.svg)](https://github.com/hyj12345/bubblematrix/actions)
+[![R-CMD-check](https://github.com/kaneplusplus/bis620/workflows/R-CMD-check/badge.svg)](https://github.com/hyj12345/MKLR/actions)
 <!-- badges: end -->
 
 Hi,guys! Welcome to MKLP package homepage. I used the knowledge about how to create a R package in BIS620 to solve a problem in BIS555.
