@@ -3,6 +3,8 @@
 <!-- badges: start -->
 
 [![R-CMD-check](https://github.com/kaneplusplus/bis620/workflows/R-CMD-check/badge.svg)](https://github.com/hyj12345/MKLR/actions)
+[![INFO](https://img.shields.io/badge/YJ-Homepage-orange)](https://github.com/hyj12345/bis620)
+
 <!-- badges: end -->
 
 Hi,guys! Welcome to MKLP package homepage. I used the knowledge about how to create a R package in BIS620 to solve a problem in BIS555.
